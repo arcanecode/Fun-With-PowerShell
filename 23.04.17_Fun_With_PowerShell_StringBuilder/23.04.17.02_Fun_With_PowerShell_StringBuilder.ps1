@@ -82,7 +82,6 @@ $output = [System.Text.StringBuilder]::new()
 [void]$output.Append( '[ArcaneCode]' ).Replace('[', '').Replace(']', '').Insert(6, ' ')
 $output.ToString()
 
-
 #------------------------------------------------------------------------------------------------
 # Adding the first string when the object is created from the stringbuilder class
 $output = [System.Text.StringBuilder]::new('ArcaneCode')
